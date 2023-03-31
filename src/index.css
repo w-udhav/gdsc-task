@@ -2,11 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('./Fonts/css/general-sans.css');
+
 body {
   margin: 0;
+  font-family: 'GeneralSans-Regular';
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+/* font-family: 'GeneralSans-Variable';
+font-family: 'GeneralSans-VariableItalic';
+font-family: 'GeneralSans-Extralight';
+font-family: 'GeneralSans-ExtralightItalic';
+font-family: 'GeneralSans-Light';
+font-family: 'GeneralSans-LightItalic';
+font-family: 'GeneralSans-Regular';
+font-family: 'GeneralSans-Italic';
+font-family: 'GeneralSans-Medium';
+font-family: 'GeneralSans-MediumItalic';
+font-family: 'GeneralSans-Semibold';
+font-family: 'GeneralSans-SemiboldItalic';
+font-family: 'GeneralSans-Bold';
+font-family: 'GeneralSans-BoldItalic'; */
