@@ -30,3 +30,26 @@ font-family: 'GeneralSans-Semibold';
 font-family: 'GeneralSans-SemiboldItalic';
 font-family: 'GeneralSans-Bold';
 font-family: 'GeneralSans-BoldItalic'; */
+
+.arrow1:before{
+  content: "";
+  position: absolute;
+  top: 98%;
+  left: 50%;
+  width: 0;
+  transform: rotate(-4deg);
+  border-top: 25px solid black;
+  border-left: 40px solid transparent;
+  border-right: 5px solid transparent;
+}
+.arrow2:before{
+  content: "";
+  position: absolute;
+  top: 98%;
+  left: 20%;
+  width: 0;
+  transform: rotate(4deg);
+  border-top: 25px solid black;
+  border-left: 5px solid transparent;
+  border-right: 40px solid transparent;
+}

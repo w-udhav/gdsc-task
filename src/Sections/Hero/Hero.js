@@ -1,11 +1,12 @@
 import React from "react";
+import Gallery from "./Components/Gallery";
 
 export default function Hero() {
   return (
-    <div className="min-h-[92vh] w-full border border-black flex h-full items-center">
+    <div className="min-h-[90vh] mt-5 w-full flex h-full items-center">
       {/* left */}
       <div className="flex-1">
-        <div className="w-[65%] flex flex-col gap-10">
+        <div className="w-[70%] flex flex-col gap-10">
           <h1 className="text-8xl font-semibold leading-[110px] font-var">
             We Take
             <br />
@@ -14,13 +15,13 @@ export default function Hero() {
             Your Brand
           </h1>
 
-          <p className="text-lg w-[80%] text-gray-600">
+          <p className="text-lg w-[80%] text-gray-600 leading-[30px] capitalize">
             Use this section to describe your company and the products you
             offer. You could share your company’s story and details about why
             you are in business.
           </p>
 
-          <div className="flex gap-2">
+          <div className="flex gap-2 w-[80%]">
             <input
               type="email"
               name="email"
@@ -36,47 +37,8 @@ export default function Hero() {
       </div>
 
       {/* right */}
-      <div className="flex-1">
-        <div className="grid grid-cols-3 border border-black h-full ">
-          <img
-            src={require("../../Assets/hero-section/h1.png")}
-            alt="h1"
-            className="col-span-2"
-          />
-          <img
-            src={require("../../Assets/hero-section/h2.png")}
-            alt="h2"
-            className="col-span-1"
-          />
-          <div className="bg-primary rounded-full flex items-center justify-center col-span-1">
-            <img
-              src={require("../../Assets/hero-section/pencil.svg").default}
-              alt="pencil"
-            />
-          </div>
-          <img
-            src={require("../../Assets/hero-section/h3.png")}
-            alt="h3"
-            className="col-span-2"
-          />
-          <img
-            src={require("../../Assets/hero-section/h4.png")}
-            alt="h4"
-            className="col-span-1"
-          />
-          <div className="bg-side1 rounded-full flex items-center justify-center col-span-1">
-            <img
-              src={require("../../Assets/hero-section/code.svg").default}
-              alt="coder"
-            />
-          </div>
-          <div className="bg-side2 rounded-full flex items-center justify-center col-span-1">
-            <img
-              src={require("../../Assets/hero-section/crown.svg").default}
-              alt="crown"
-            />
-          </div>
-        </div>
+      <div className="w-[45rem]">
+        <Gallery />
       </div>
     </div>
   );

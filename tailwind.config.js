@@ -7,9 +7,13 @@ module.exports = {
         primary: "#3461FF",
         side1: "#E0FF22",
         side2: "#F1F4FF",
+        sectionGray: "#FAFAFA",
       },
       fontFamily: {
         var: "GeneralSans-Variable",
+      },
+      gridTemplateColumns: {
+        sample: "repeat(3, minmax(max-content, 195px))",
       },
     },
   },
