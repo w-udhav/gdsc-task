@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./Icons";
+import { Logo } from "./Icons";
 
 export default function Navbar() {
   const navLinks = [
@@ -9,7 +9,7 @@ export default function Navbar() {
     { id: 4, name: "About Us", link: "#about" },
   ];
   return (
-    <div className="h-[8vh] ">
+    <div className="h-[8vh] min-h-[9vh] border">
       <div className="flex items-center justify-between h-full">
         {/* left */}
         <div className="flex items-center gap-20">

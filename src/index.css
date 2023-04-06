@@ -4,6 +4,10 @@
 
 @import url('./Fonts/css/general-sans.css');
 
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'GeneralSans-Regular';
@@ -52,4 +56,8 @@ font-family: 'GeneralSans-BoldItalic'; */
   border-top: 25px solid black;
   border-left: 5px solid transparent;
   border-right: 40px solid transparent;
+}
+
+body *{
+  transition: all;
 }

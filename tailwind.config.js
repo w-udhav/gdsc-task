@@ -13,7 +13,7 @@ module.exports = {
         var: "GeneralSans-Variable",
       },
       gridTemplateColumns: {
-        sample: "repeat(3, minmax(max-content, 195px))",
+        sample: "repeat(3, minmax(250px, 1fr))",
       },
     },
   },

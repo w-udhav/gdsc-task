@@ -11,48 +11,46 @@ import {
   Asana,
 } from "../../../Components/Icons";
 
-const style = "w-40";
-
 const logoList = [
   {
     id: 1,
-    logo: <Spotify className={style} />,
+    logo: <Spotify />,
   },
   {
     id: 2,
-    logo: <Google className={style} />,
+    logo: <Google />,
   },
   {
     id: 3,
-    logo: <Uber className={style} />,
+    logo: <Uber />,
   },
   {
     id: 4,
-    logo: <Microsoft className={style} />,
+    logo: <Microsoft />,
   },
   {
     id: 5,
-    logo: <Shopify className={style} />,
+    logo: <Shopify />,
   },
   {
     id: 6,
-    logo: <Evernote className={style} />,
+    logo: <Evernote />,
   },
   {
     id: 7,
-    logo: <Adobe className={style} />,
+    logo: <Adobe />,
   },
   {
     id: 8,
-    logo: <Paypal className={style} />,
+    logo: <Paypal />,
   },
   {
     id: 9,
-    logo: <Amazon className={style} />,
+    logo: <Amazon />,
   },
   {
     id: 10,
-    logo: <Asana className={style} />,
+    logo: <Asana />,
   },
 ];
 

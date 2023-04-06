@@ -1,12 +1,13 @@
 import React from "react";
 import Gallery from "./Components/Gallery";
+import NewGallery from "./Components/NewGallery";
 
 export default function Hero() {
   return (
-    <div className="min-h-[90vh] mt-5 w-full flex h-full items-center">
+    <div className="min-h-[90vh] mt-5 w-full flex flex-col xl:flex-row h-full items-center">
       {/* left */}
       <div className="flex-1">
-        <div className="w-[70%] flex flex-col gap-10">
+        <div className="flex-1 flex flex-col gap-10">
           <h1 className="text-8xl font-semibold leading-[110px] font-var">
             We Take
             <br />
@@ -15,10 +16,10 @@ export default function Hero() {
             Your Brand
           </h1>
 
-          <p className="text-lg w-[80%] text-gray-600 leading-[30px] capitalize">
-            Use this section to describe your company and the products you
-            offer. You could share your company’s story and details about why
-            you are in business.
+          <p className="text-lg text-gray-600 leading-[30px] capitalize">
+            Use this section to describe your company and the <br />
+            products you offer. You could share your company’s <br />
+            story and details about why you are in business.
           </p>
 
           <div className="flex gap-2 w-[80%]">
@@ -37,8 +38,8 @@ export default function Hero() {
       </div>
 
       {/* right */}
-      <div className="w-[45rem]">
-        <Gallery />
+      <div className="flex-1 flex xl:justify-end py-14">
+        <NewGallery />
       </div>
     </div>
   );
